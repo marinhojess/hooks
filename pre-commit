@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ -e .env ]; then
+  echo "The file .env can't be commited. Please, remove it."
+  exit 1
+fi
+
+exit 0
